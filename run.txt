@@ -1,0 +1,11 @@
+Training file path: training_dataset/qiaoji_5_6/TE.csv
+Testing file path: training_dataset/qiaoji_5_6/RS.csv
+Training file path: training_dataset/qiaoji_5_6/TE.csv
+Testing file path: training_dataset/qiaoji_5_6/RS.csv
+sahpe of adj_cat tensor([[1., 0., 1.,  ..., 0., 0., 0.],
+        [0., 1., 0.,  ..., 1., 1., 0.],
+        [1., 0., 1.,  ..., 0., 0., 0.],
+        ...,
+        [0., 1., 0.,  ..., 1., 1., 0.],
+        [0., 1., 0.,  ..., 1., 1., 0.],
+        [0., 0., 0.,  ..., 0., 0., 1.]])

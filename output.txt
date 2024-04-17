@@ -1,0 +1,34 @@
+Fine scale adj torch shape: torch.Size([31421, 727]) Type: <class 'torch.Tensor'>
+Medium scale adj torch shape: torch.Size([727, 727]) Type: <class 'torch.Tensor'>
+Coarse scale adj torch shape: torch.Size([727, 727]) Type: <class 'torch.Tensor'>
+Adjacency matrices tuple length: 3
+Adjacency matrix 0 shape: torch.Size([31421, 727]), Type: <class 'torch.Tensor'>
+Adjacency matrix 1 shape: torch.Size([727, 727]), Type: <class 'torch.Tensor'>
+Adjacency matrix 2 shape: torch.Size([727, 727]), Type: <class 'torch.Tensor'>
+<class 'tuple'> 3
+Using device: cuda
+Fine scale adj torch shape: torch.Size([31421, 727]) Type: <class 'torch.Tensor'>
+Medium scale adj torch shape: torch.Size([727, 727]) Type: <class 'torch.Tensor'>
+Coarse scale adj torch shape: torch.Size([727, 727]) Type: <class 'torch.Tensor'>
+Adjacency matrices tuple length: 3
+Adjacency matrix 0 shape: torch.Size([31421, 727]), Type: <class 'torch.Tensor'>
+Adjacency matrix 1 shape: torch.Size([727, 727]), Type: <class 'torch.Tensor'>
+Adjacency matrix 2 shape: torch.Size([727, 727]), Type: <class 'torch.Tensor'>
+<class 'tuple'> 3
+Fine scale adj torch shape: torch.Size([31421, 727]) Type: <class 'torch.Tensor'>
+Medium scale adj torch shape: torch.Size([727, 727]) Type: <class 'torch.Tensor'>
+Coarse scale adj torch shape: torch.Size([727, 727]) Type: <class 'torch.Tensor'>
+Adjacency matrices tuple length: 3
+Adjacency matrix 0 shape: torch.Size([31421, 727]), Type: <class 'torch.Tensor'>
+Adjacency matrix 1 shape: torch.Size([727, 727]), Type: <class 'torch.Tensor'>
+Adjacency matrix 2 shape: torch.Size([727, 727]), Type: <class 'torch.Tensor'>
+<class 'tuple'> 3
+Initializing HCF model with user embedding dim: 128, item embedding dim: 128, and output dim: 128
+n_users=31421, n_items=727
+n_interactions=530198
+n_train=374729, n_test=155469, sparsity=0.02321
+<class 'tuple'> 3
+Without pretraining
+An error occurred during training: addmm: Argument #3 (dense): Expected dim 0 size 727, got 128
+An error occurred during evaluation: too many values to unpack (expected 3)
+Script execution completed.
